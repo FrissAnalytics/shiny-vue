@@ -2,17 +2,21 @@
 
 ## Introduction
 
-D3 stands for `Data Driven Documents`. D3 can be used to create any chart imaginable using web standards only.
+D3 stands for `Data Driven Documents`. D3 can be used to create any chart imaginable using web standards only. For some examples, see Mike Bostock's [bl.ock](https://bl.ocks.org/mbostock) collection and the official [docs](https://d3js.org/).
 
-The power of `d3` comes from its ability to bind data to the DOM and for being an incredibly powerful toolbelt library that serves as a visualization kernel. On the other hand, `vue` is a popular progressive framework for building user interfaces that is both easy to use and incrementally adoptable.
+The power of `d3` comes from its ability to bind data to the DOM and for being an incredibly powerful toolbelt library that serves as a visualization kernel. On the other hand, [Vue](https://vuejs.org/) is a popular progressive framework for building user interfaces that is both easy to use and incrementally adoptable.
 
 In addition, vue offers a powerful template and rendering framework that let's us compose applications as a set of reusable `components`, combined with a powerful `reactive` event system.
 
-These days every major application framework offers bindings to Javascript. Hence, it makes sense to combine the power of `vue` and `d3` to _create reactive data driven visualization components_ based on ES6.
+These days every major application framework offers bindings to Javascript. Hence, it makes sense to combine the power of `vue` and `d3` to _create reactive data driven visualization components_ based on modern javascript i.e. [ES6](https://babeljs.io/docs/en/learn/).
 
 As these components are completely Javascript based, they can be used inside `.NET`, `Python` and `R/Shiny` applications, without modifying any code. In that sense, our goal here is not to create an R `HTMLWidget`, but to create Javascript code that can be copied (almost) verbatim, while still working in other environments that support Javascript.
 
-This text discusses the details of a technical prototype that involves in a number of custom `d3` driven bubble chart `components`, together with a `main vue app` and a `reactive event system` that let's components communicate with each other, with the main vue app and even with R/Shiny.
+This text discusses the details of a technical prototype that involves in a number of custom `d3` driven bubble chart `components`, together with a `main vue app` and a `reactive event system` that let's components communicate with each other, with the main vue app and even with R/Shiny. The goals is to stay close to Javascript while still being able to use most of the code in a shiny app.
+
+#### additional links
+
+For more information on R based web applications and widgets, see [shiny](https://shiny.rstudio.com/) and [HTMLWidgets](https://www.htmlwidgets.org/), respectively. For a collection of my personal bl.ocks, see [here](http://blockbuilder.org/search#user%3Dfrissanalytics). For convenience, we also use a small set of functions from [Lodash](https://lodash.com/docs/4.17.10), another very useful toolbelt library.
 
 #### application overview
 
