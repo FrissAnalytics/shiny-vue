@@ -1,0 +1,72 @@
+#app {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(180, 177, 177, 0.973);
+    box-sizing: border-box;
+}
+
+.custom {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(214, 213, 213, 0.658);
+    box-sizing: border-box;
+}
+
+button:hover,
+circle:hover,
+.btn {
+    cursor: pointer;
+}
+
+.btn {
+    background-color: rgba(180, 177, 177, 0.973);
+    width: 100px;
+    padding: 3px;
+    margin: 10px;
+    text-align: center;
+    user-select: none;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.flex-container {
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+
+.flex-container>div {
+    background-color: rgba(214, 213, 213, 0.658);
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #cbc9c9;
+  border: 0;
+  border-radius: 0; 
+}
+
+#shiny_result{
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #cbc9c9;
+  border: 0;
+  border-radius: 0; 
+  
+}
